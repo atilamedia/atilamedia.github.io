@@ -12,7 +12,7 @@ description: "Write an awesome description for your new site here. You can edit 
 people:
 - name: F. Basoro
   pic: basoro
-  position: Lead Designer
+  position: Lead Developer
   social:
     - title: twitter
       url: #
@@ -34,7 +34,7 @@ people:
 
 - name: Diana Petersen
   pic: 3
-  position: Lead Developer
+  position: Lead Designer
   social:
     - title: twitter
       url: #
