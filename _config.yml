@@ -11,14 +11,14 @@ description: "Write an awesome description for your new site here. You can edit 
 # Team names, titles and social links
 people:
 - name: F. Basoro
-  pic: 1
+  pic: basoro
   position: Lead Designer
   social:
     - title: twitter
       url: #
-    - title: facebook
+    - title: web
       url: #
-    - title: stack-overflow
+    - title: website
       url: #
 
 - name: Larry Parker
