@@ -1,3 +1,9 @@
+{% if site.logo contains "://" %}
+  {% capture logo_path %}{{ site.logo }}{% endcapture %}
+{% else %}
+  {% capture logo_path %}{{ site.logo }}{% endcapture %}
+{% endif %}
+
 <!-- Navigation -->
     <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
@@ -9,7 +15,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">{{site.title}}</a>
+                <a class="navbar-brand page-scroll" href="#page-top">{% unless logo_path == empty %}<img src="{{ logo_path | relative_url }}" alt="">{% endunless %}{{site.title}}</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
