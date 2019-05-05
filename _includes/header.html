@@ -1,9 +1,3 @@
-{% if site.logo contains "://" %}
-  {% capture logo_path %}{{ site.logo }}{% endcapture %}
-{% else %}
-  {% capture logo_path %}{{ site.logo }}{% endcapture %}
-{% endif %}
-
 <!-- Navigation -->
     <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
@@ -15,7 +9,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">{% unless logo_path == empty %}<img src="{{ logo_path | relative_url }}" alt="">{% endunless %}{{site.title}}</a>
+                <a class="navbar-brand page-scroll" href="#page-top">{{site.title}}</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -50,7 +44,7 @@
     <header>
         <div class="container">
             <div class="intro-text">
-                <div class="intro-lead-in">Aplikasi Mobile, Website dan Digitalisasi</div>
+                <div class="intro-lead-in">Mobile App, Website & Digitalize</div>
                 <div class="intro-heading">Let's Digitize Yours</div>
                 <a href="#about" class="page-scroll btn btn-xl">Tentang Kami</a>
             </div>
