@@ -9,6 +9,7 @@ thumbnail: yaski-thumbnail.png
 alt: image-alt
 project-date: Maret 2019
 client: Yayasan ASKI
+client_url: https://www.yaski.or.id
 category: Web Development
 description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
 
