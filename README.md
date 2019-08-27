@@ -1,2 +1,2 @@
 # atilamedia.github.io
-Website https://www.atilamedia.com
+Website https://atilamedia.com
